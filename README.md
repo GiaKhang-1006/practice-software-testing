@@ -1,159 +1,66 @@
-[![Run Playwright Tests 🎭](https://github.com/testsmith-io/practice-software-testing/actions/workflows/run-tests.yml/badge.svg)](https://github.com/testsmith-io/practice-software-testing/actions/workflows/run-tests.yml)
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# Default accounts
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-| First name | Last name | Role   | E-mail                                | Password   |
-|------------|-----------|--------|---------------------------------------|------------|
-| John       | Doe       | admin  | admin@practicesoftwaretesting.com     | welcome01  |
-| Jane       | Doe       | user   | customer@practicesoftwaretesting.com  | welcome01  |
-| Jack       | Howe      | user   | customer2@practicesoftwaretesting.com | welcome01  |
-| Bob        | Smith     | user   | customer3@practicesoftwaretesting.com | pass123    |
+## About Laravel
 
-# URLs (hosted versions)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-| Description          | Application                                                                                    | API                                                                                                           | Swagger                                                                                                                  |
-|----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Sprint 1             | [https://v1.practicesoftwaretesting.com](https://v1.practicesoftwaretesting.com)               | [https://api-v1.practicesoftwaretesting.com](https://api-v1.practicesoftwaretesting.com/status)               | [https://api-v1.practicesoftwaretesting.com](https://api-v1.practicesoftwaretesting.com/api/documentation)               |
-| Sprint 2             | [https://v2.practicesoftwaretesting.com](https://v2.practicesoftwaretesting.com)               | [https://api-v2.practicesoftwaretesting.com](https://api-v2.practicesoftwaretesting.com/status)               | [https://api-v2.practicesoftwaretesting.com](https://api-v2.practicesoftwaretesting.com/api/documentation)               |
-| Sprint 3             | [https://v3.practicesoftwaretesting.com](https://v3.practicesoftwaretesting.com)               | [https://api-v3.practicesoftwaretesting.com](https://api-v3.practicesoftwaretesting.com/status)               | [https://api-v3.practicesoftwaretesting.com](https://api-v3.practicesoftwaretesting.com/api/documentation)               |
-| Sprint 4             | [https://v4.practicesoftwaretesting.com](https://v4.practicesoftwaretesting.com)               | [https://api-v4.practicesoftwaretesting.com](https://api-v4.practicesoftwaretesting.com/status)               | [https://api-v4.practicesoftwaretesting.com](https://api-v4.practicesoftwaretesting.com/api/documentation)               |
-| Sprint 5             | [https://practicesoftwaretesting.com](https://practicesoftwaretesting.com)                     | [https://api.practicesoftwaretesting.com](https://api.practicesoftwaretesting.com/status)                     | [https://api.practicesoftwaretesting.com](https://api.practicesoftwaretesting.com/api/documentation)                     |
-| Sprint 5 (with bugs) | [https://with-bugs.practicesoftwaretesting.com](https://with-bugs.practicesoftwaretesting.com) | [https://api-with-bugs.practicesoftwaretesting.com](https://api-with-bugs.practicesoftwaretesting.com/status) | [https://api-with-bugs.practicesoftwaretesting.com](https://api-with-bugs.practicesoftwaretesting.com/api/documentation) |
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## Mobile App
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-The mobile app is fully integrated with version 4 of Practice Software Testing, which means both share the same environment. Any changes you make through the mobile app (like creating or editing data) will appear on the website, and updates on the website will also show up in the app.
+## Learning Laravel
 
-[Android Mobile APK](https://testsmith.s3.eu-central-1.amazonaws.com/artifacts/practice-software-testing.apk)
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-[iOS Simulator App](https://testsmith.s3.eu-central-1.amazonaws.com/artifacts/practice-software-testing.zip)
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-# Using the docker containers
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-It will take up to 5 minutes (depending on your internet connection speed), if you run `docker compose up -d` for the first
-time. Any subsequent `docker compose up -d` will take seconds. You may need to add sudo before the docker command `sudo docker compose up -d`
+## Laravel Sponsors
 
-All images together are less than 1,5 GB.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-## 🐳 Docker Compose Setup
+### Premium Partners
 
-This project includes multiple Docker Compose configurations to support development, testing, and production usage.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-### 🔧 Local Development (with live-reloading, source-mounted volumes)
+## Contributing
 
-Use this when actively working on the application:
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-```bash
-docker compose up -d
-```
+## Code of Conduct
 
-This will:
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-* Build the containers from local source (`docker-compose.yml`)
-* Mount the source code for live changes
-* Automatically include `docker-compose.override.yml` (mailcatcher, cron, phpmyadmin)
+## Security Vulnerabilities
 
-### 🧪 Development + Excluding Optional Services
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-To start the bare minimum:
+## License
 
-```bash
-docker compose -f docker-compose.yml up -d
-```
-This will:
-
-* Use only what's defined in docker-compose.yml
-* Ignore docker-compose.override.yml completely
-* Skip optional services like cron, phpmyadmin, mailcatcher
-
-
-### 🚀 Production Setup (with prebuilt Docker images)
-
-```bash
-docker compose -f docker-compose.prod.yml up --pull missing -d
-```
-
-## URL's (local version)
-
-| URL                                                                                | Description           |
-|------------------------------------------------------------------------------------|-----------------------|
-| [http://localhost:8091](http://localhost:8091)                                     | (REST) API            |
-| [http://localhost:8091/api/documentation](http://localhost:8091/api/documentation) | Swagger               |
-| [http://localhost:1080](http://localhost:1080)                                     | MailCatcher           |
-| [http://localhost:4200](http://localhost:4200)                                     | (Angular) Application |
-| [http://localhost:8000](http://localhost:8000) (`root`/`root`)                     | PHPMyAdmin            |
-
-## Switch sprint
-
-Update the `SPRINT` in [.env](.env) to use the proper version that belongs to the sprint.
-
-## Roll Back - Run Migrations - Seed Database
-
-`docker compose exec laravel-api php artisan migrate:fresh --seed`
-
-## Migrate database schema
-
-`docker compose exec laravel-api php artisan migrate`
-
-## Seed database
-
-`docker compose exec laravel-api php artisan db:seed`
-
-## Access to the Laravel Logs
-
-`docker-compose exec laravel-api tail -f storage/logs/laravel.log`
-
-## Generate Swagger documentation
-
-`docker compose exec laravel-api php artisan l5-swagger:generate`
-
-## Update order status
-
-`docker compose exec laravel-api php artisan order:update`
-
-## Remove PDF documents
-
-`docker compose exec laravel-api php artisan invoice:remove`
-
-## Generate PDF documents
-
-`docker compose exec laravel-api php artisan invoice:generate`
-
-## Execute unit tests (sprint 1 to sprint 4)
-
-`./vendor/bin/phpunit`
-
-## Execute unit tests (sprint 5)
-
-`./vendor/bin/pest`
-
-## Execute unit tests with coverage
-
-`XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-html tests/coverage`
-
-## Start pact-mock-service
-
-`pact-mock-service start --host localhost --port 7203 --consumer AnyConsumer --provider ProductAPI --pact-dir ./pacts --log ./storage/logs/pact.log`
-
-## Stop pact-mock-service
-
-`pact-mock-service stop --port 7203`
-
-# Sprints
-
-## Sprint 0
-
-During this initial sprint, we made some architectural decisions. We decided to implement a
-super-fast [Laravel](https://laravel.com/) API, as well as an [Angular](https://angular.io/) frontend.
-
-Every developer or tester can spin up the environment on its own machine. This makes testing easier, and it
-allows you to manipulate data.
-
-The deliverable of Sprint0 is a Dockerized environment, just like database seeding scripts. Basically, the result is
-an empty environment.
-
-# Support This Project
-
-If you find this project useful and want to support its ongoing development, please consider [supporting](https://testwithroy.com/b/support) it!
-
-I appreciate your support!
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

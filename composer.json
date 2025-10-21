@@ -15,7 +15,7 @@
         "laravel/socialite": "v5.20.0",
         "laravel/tinker": "v2.10.1",
         "mehradsadeghi/laravel-filter-querystring": "1.1.10",
-       
+        "pact-foundation/pact-php": "10.1.1",
         "pragmarx/google2fa": "v8.0.3",
         "predis/predis": "3.0.0",
         "spatie/array-to-xml": "3.4.0",
