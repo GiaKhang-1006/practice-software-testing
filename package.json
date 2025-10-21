@@ -10,6 +10,9 @@
     "mutation-test": "stryker run",
     "lint": "ng lint"
   },
+  "engines": {
+  "node": ">=20.0.0 <21.0.0"
+  },
   "private": true,
   "dependencies": {
     "@angular-slider/ngx-slider": "19.0.0",
